@@ -10,3 +10,26 @@ Yukipoyo LINE bot is bot like yukipoyo.
 - API Gateway
 - AWS Lambda
 - DynamoDB
+
+# DynamoDB
+```
+{
+  "documentSentiment": {
+    "magnitude": 0.8,
+    "score": 0.8
+  },
+  "sentences": [
+    {
+      "text": {
+        "content": "好きな人の力ってすごいんだね。",
+        "beginOffset": 0
+      },
+      "sentiment": {
+        "magnitude": 0.8,
+        "score": 0.8
+      }
+    }
+  ]
+}
+```
+
